@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script> 
+	<meta charset="utf-8">
+	<title>Калькулятор</title>
+</head>
+<body>
+	<!-- поле ввода первого числа -->
+	<input id="num1" />
+
+	<!-- блок с кнопками -->
+	<div id="operator_btns">
+	  <button id="plus" onclick="operatorLabel('+')" >+</button>
+	  <button id="minus" onclick="operatorLabel('-')">-</button>
+	  <button id="times" onclick="operatorLabel('*')">x</button>
+	  <button id="divide" onclick="operatorLabel('/')" >:</button>
+      <button id="kvadrat"  onclick="pasholNaHui('пашол нахуй')">квадрат</button>
+	  <span id="lox"
+        class="lox">
+	</div>
+	<button onclick="button_1()">1</button>
+    <div>
+        <span id="result"
+        class="result">
+            
+        </span>
+    </div>
+
+	<!-- поле ввода второго числа -->
+	<input id="num2" />
+	<br>
+
+	<!-- кнопка для рассчётов -->
+	<button onclick="func()">Посчитать</button>
+	<span id="pasholNaHui" class="nahui"></span>
+	<div id="traktorist" class="traktorist">
+<img src="https://aif-s3.aif.ru/images/015/047/47335839a80d5424e627252d4c940e86.JPG">
+	</div>
+
+</body>
+</html>
