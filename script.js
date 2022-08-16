@@ -50,7 +50,7 @@
    document.getElementById("pasholNaHui").innerHTML = message;
   setTimeout(() => {
     pasholNaHui("пашол нахуй");
-  }, 6000);
+  }, 500);
 
   }
   function traktorist() {
