@@ -1,43 +1,26 @@
-<!DOCTYPE html>
-<html lang="ru">
+﻿<html lang="ru">
+<script type="text/javascript" id="custom"></script>
 <head>
-    <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script> 
-	<meta charset="utf-8">
-	<title>Калькулятор</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Verificación de edad</title>
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
-	<!-- поле ввода первого числа -->
-	<input id="num1" />
-
-	<!-- блок с кнопками -->
-	<div id="operator_btns">
-	  <button id="plus" onclick="operatorLabel('+')" >+</button>
-	  <button id="minus" onclick="operatorLabel('-')">-</button>
-	  <button id="times" onclick="operatorLabel('*')">x</button>
-	  <button id="divide" onclick="operatorLabel('/')" >:</button>
-      <button id="kvadrat"  onclick="pasholNaHui('пашол нахуй')">квадрат</button>
-	  <span id="lox"
-        class="lox">
-	</div>
-	<button onclick="button_1()">1</button>
-    <div>
-        <span id="result"
-        class="result">
-            
-        </span>
-    </div>
-
-	<!-- поле ввода второго числа -->
-	<input id="num2" />
-	<br>
-
-	<!-- кнопка для рассчётов -->
-	<button onclick="func()">Посчитать</button>
-	<span id="pasholNaHui" class="nahui"></span>
-	<div id="traktorist" class="traktorist">
-<img src="https://aif-s3.aif.ru/images/015/047/47335839a80d5424e627252d4c940e86.JPG">
-	</div>
-
+<body dir="lgbt">
+<main class="wrapper background-backgroundcolor">
+<section class="section">
+<header> <img class="image-url" src="i/3.png" width="150" height="150" alt=""> </header>
+<h1 class="headline-text headline-fontcolor">Verificación de edad</h1>
+<div class="message-text message-fontcolor">¿Tienes 18 años?</div>
+<div class="call-to-action">
+<section class="button-section"> <a class="destination-target_url" id="destination_url" href="https://template.drcash.sh/6d3e608b-fefe-4f23-8217-ff309f9932f0"> <button type="submit" class="action-button button button-shape button-backgroundcolor"> <span class="button-text button-fontcolor">SÍ</span> </button></a>
+<section class="button-section"> <a class="destination-target_url2" id="destination_url" href="http://google.com"> <button type="submit" class="action-button button button-shape button-backgroundcolor2"> <span class="button-text button-fontcolor">NO</span> </button></a>
+</section>
+</div>
+</section>
+</main>
+<div class="ws-root">
+</div>
 </body>
 </html>
